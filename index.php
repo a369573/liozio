@@ -1,4 +1,4 @@
 <?php
 echo "test<br>";
-echo "zzzzfgdfdfgzfdfdffff";
+echo "테스트완료";
 ?>
