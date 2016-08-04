@@ -1,4 +1,4 @@
 <?php
 echo "test<br>";
-echo "zzzzfgdfdfgz"
+echo "zzzzfgdfdfgzfdfdf";
 ?>
