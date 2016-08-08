@@ -1,4 +1,4 @@
 <?php
 echo "test<br>";
-echo "한글수정한당fffdfdfdfdsf";
+echo "한글수정한당fffdfdfdfdsddf";
 ?>
