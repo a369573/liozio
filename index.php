@@ -60,8 +60,7 @@ class jsonDecodeP implements StrategyInterface {
 
 class mainContain {
     private $oriVal;
-    private $outVal;
-
+    
     public function __construct() {
 //        $this->oriVal = $oriVal;
     }
