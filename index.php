@@ -81,7 +81,7 @@ class mainContain {
 
 
 $input = new mainContain();
-$input->setVal('가나다다라fk');
+$input->setVal('가나다다라');
 
 $a = new StrategyContext('SP');
 $b = new StrategyContext('USP');
