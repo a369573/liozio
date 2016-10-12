@@ -92,7 +92,7 @@ $aa = $a->processC($input);
 $input->setVal($aa);
 $bb = $b->processC($input);
 
-$input->setVal('가나다라마버사');
+$input->setVal('가나다라마바사');
 $cc = $c->processC($input);
 $input->setVal($cc);
 $dd = $d->processC($input);
