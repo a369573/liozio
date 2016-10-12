@@ -101,5 +101,3 @@ $input->outVal($aa);
 $input->outVal($bb);
 $input->outVal($cc);
 $input->outVal($dd);
-
-?>
