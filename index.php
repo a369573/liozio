@@ -81,7 +81,7 @@ class mainContain {
 
 
 $input = new mainContain();
-$input->setVal('가나다다라dksd');
+$input->setVal('가나다다라dksfffd');
 
 $a = new StrategyContext('SP');
 $b = new StrategyContext('USP');
