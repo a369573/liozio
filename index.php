@@ -32,28 +32,28 @@ interface StrategyInterface {
 
 class serializeP implements StrategyInterface {
     public function cording($input) {
-        $r = serialize($input->getVal());
+        $r = serialize($input->oriVal);
         return $r;
     }
 }
 
 class unserializeP implements StrategyInterface {
     public function cording($input) {
-        $r = unserialize($input->getVal());
+        $r = unserialize($input->oriVal);
         return $r;
     }
 }
 
 class jsonEncodeP implements StrategyInterface {
     public function cording($input) {
-        $r = json_encode($input->getVal());
+        $r = json_encode($input->oriVal);
         return $r;
     }
 }
 
 class jsonDecodeP implements StrategyInterface {
     public function cording($input) {
-        $r = json_decode($input->getVal());
+        $r = json_decode($input->oriVal);
         return $r;
     }
 }
@@ -65,9 +65,9 @@ class mainContain {
 //        $this->oriVal = $oriVal;
     }
 
-    public function getVal() {
-        return $this->oriVal;
-    }
+//    public function getVal() {
+//        return $this->oriVal;
+//    }
 
     public function setVal($oriVal) {
         $this->oriVal = $oriVal;
